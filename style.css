@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Custom */
+.group:hover .group-hover\:block {
+  display: block;
+}
+/* Remove gap between menu and submenu */
+.submenu {
+  display: none;
+}
+.group:hover .submenu {
+  display: block;
+}
